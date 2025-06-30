@@ -2,7 +2,7 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "gateway" : false,
+      "gateway" : true,
       "overwriteActivityTime" : false,
       "description" : "Here I was supposed to explain what this device is used for."
     },
