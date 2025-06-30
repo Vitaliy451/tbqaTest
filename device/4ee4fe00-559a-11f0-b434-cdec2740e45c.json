@@ -4,7 +4,7 @@
     "additionalInfo" : {
       "gateway" : false,
       "overwriteActivityTime" : false,
-      "description" : ""
+      "description" : "Here I was supposed to explain what this device is used for."
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
