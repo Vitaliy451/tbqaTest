@@ -22,7 +22,10 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "143e78b0-fdae-11ef-bca0-9d823f5ae12e"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "4ee4fe00-559a-11f0-b434-cdec2740e45c"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -41,15 +44,39 @@
   },
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1751278168702,
+      "lastUpdateTs" : 1751278524027,
       "longValue" : null,
       "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1751278524026,
+      "longValue" : 1751278521444,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "serverAttribute",
+      "lastUpdateTs" : 1751278570286,
+      "longValue" : null,
+      "strValue" : "server_test"
     } ],
-    "SHARED_SCOPE" : [ ]
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sharedAttribute",
+      "lastUpdateTs" : 1751278552547,
+      "longValue" : null,
+      "strValue" : "shared_test"
+    } ]
   },
   "calculatedFields" : [ ]
 }
